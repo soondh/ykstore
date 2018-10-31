@@ -1,0 +1,15 @@
+platform:ios, '7.0'
+use_frameworks!
+target "YokaStore" do 
+	pod 'AFNetworking', '~> 3.1.0'
+	pod 'TSMessages', '~> 0.9.12'
+	pod 'MJExtension', '~> 3.0.13'
+	pod 'MMPopupView', '~> 1.7'
+	pod 'MJRefresh', '~> 3.1.12'
+	pod 'pop', '~> 1.0.9'
+	pod 'DZNEmptyDataSet', '~> 1.7.2'
+	pod 'SDWebImage', '~> 4.0.0'
+	pod 'MBProgressHUD', '~> 1.0.0'
+	pod 'SDCycleScrollView', '~> 1.66'
+	pod 'YYText'
+end
