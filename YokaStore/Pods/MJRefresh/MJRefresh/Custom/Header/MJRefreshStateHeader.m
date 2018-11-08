@@ -98,10 +98,16 @@
         NSString *time = [formatter stringFromDate:lastUpdatedTime];
         
         // 3.显示日期
+        /*
         self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@%@",
                                           [NSBundle mj_localizedStringForKey:MJRefreshHeaderLastTimeText],
                                           isToday ? [NSBundle mj_localizedStringForKey:MJRefreshHeaderDateTodayText] : @"",
                                           time];
+        */
+        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@%@",
+                                          [NSBundle mj_localizedStringForKey:MJRefreshHeaderLastTimeText],
+                                          isToday ? [NSBundle mj_localizedStringForKey:MJRefreshHeaderDateTodayText] : @"",
+                                          @""];
     } else {
         self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@",
                                           [NSBundle mj_localizedStringForKey:MJRefreshHeaderLastTimeText],

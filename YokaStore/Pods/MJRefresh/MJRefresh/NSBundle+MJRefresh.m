@@ -26,7 +26,8 @@
     if (arrowImage == nil) {
         arrowImage = [[UIImage imageWithContentsOfFile:[[self mj_refreshBundle] pathForResource:@"arrow@2x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
-    return arrowImage;
+    //return arrowImage;
+    return nil;
 }
 
 + (NSString *)mj_localizedStringForKey:(NSString *)key

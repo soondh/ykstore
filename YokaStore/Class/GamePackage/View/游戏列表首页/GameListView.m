@@ -78,7 +78,7 @@ static NSString *cellReuseID = @"GameListViewCell";
     if (!_collectionView) {
 
         CGFloat margin = 10.0f;
-        CGFloat itemWidth = (self.frame.size.width - 4*margin)/3.0f;
+        CGFloat itemWidth = (self.frame.size.width - 4*margin)/3.0f - 0.1f;
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
         layout.itemSize = CGSizeMake(itemWidth, itemWidth+40);
         layout.sectionInset = UIEdgeInsetsMake(margin, margin, margin, margin);
